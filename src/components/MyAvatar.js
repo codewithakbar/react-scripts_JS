@@ -13,7 +13,7 @@ export default function MyAvatar({ ...other }) {
   return (
     <Avatar
       src={user?.photoURL}
-      alt={user?.displayName}
+      alt="Akbar"
       color={user?.photoURL ? 'default' : createAvatar(user?.displayName).color}
       {...other}
     >

@@ -42,7 +42,7 @@ export default function App() {
                     <div className="flex flex-col min-h-screen overflow-hidden">
                       <AuthProvider>
                         <Switch>
-                          <Route component={kirishForm} path="/kirish" />
+                          <Route component={kirishForm} path="/login" />
                           <Route component={Home} path="/" />
                         </Switch>
                       </AuthProvider>
